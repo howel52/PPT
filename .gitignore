@@ -5,7 +5,7 @@ yarn.lock
 coverage
 .nyc_output
 .cache
-dist
+# dist
 lib
 .vscode/
 .idea/

@@ -1,19 +1,16 @@
 <template lang="pug">
 .backgroud
   ppt
-  lotusLand
 </template>
 
 <script>
 import PPT from './PPT'
-import LotusLand from './component/lotusLand'
 import * as Theme from './asset/theme'
 
 export default {
   name: 'app',
   components: {
     ppt: PPT,
-    lotusLand: LotusLand,
   },
   mounted() {
     const searchParams = new URLSearchParams(window.location.search)

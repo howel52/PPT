@@ -1,0 +1,69 @@
+.slide {
+  font-size: 16px;
+  color: var(--ppt-second-color);
+}
+.slide >* {
+  margin: 0;
+  width: fit-content;
+}
+.slide b {
+  color: var(--ppt-primary-color);
+}
+.slide strong {
+  color: var(--ppt-highlight-color);
+}
+.slide p,
+.slide div {
+  white-space: pre-wrap;
+}
+.slide code {
+  font-family: Consolas, Monaco, monospace;
+}
+.slide ol,
+.slide ul {
+  white-space: normal;
+  margin: 0.5em 0;
+  margin-left: 0.7em;
+  padding-left: 0.6em;
+}
+.slide a {
+  color: var(--ppt-primary-color);
+  text-decoration: none;
+}
+.slide a:hover {
+  text-decoration: underline;
+}
+
+.ppt-root {
+  position: fixed;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  bottom: 5%;
+}
+.ppt {
+  position: relative;
+  top: 48%;
+  left: 50%;
+  width: fit-content;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Noto Sans CJK SC, PingFang SC, Hiragino Sans GB;
+}
+body {
+  margin: 0;
+  --ppt-background-color: #111;
+  --ppt-primary-color: #ccc;
+  --ppt-second-color: #aaa;
+  --ppt-highlight-color: #3f51b5;
+}
+.backgroud {
+  height: 100vh;
+  background-color: var(--ppt-background-color);
+}
+
